@@ -51,13 +51,13 @@
 
                             <div class="form-group">
                                 <label>Password</label>
-                                <input type="password"  class="form-control password" id="password" name="password" placeholder="Please Enter Password"  />
+                                <input type="password"  class="form-control password" id="password" name="password" placeholder="Please Enter Password" value="{{$user->password}}" />
                                 <p style="color: red ; display: none" class="error errorPassword"></p>
                             </div>
 
                             <div class="form-group">
                                 <label>PhoneNumber</label>
-                                <input type="text"  class="form-control " id="phoneNumber" name="phoneNumber" placeholder="Please Enter Phone Number"  />
+                                <input type="text"  class="form-control " id="phoneNumber" name="phoneNumber" placeholder="Please Enter Phone Number"  value="{{$user->phoneNumber}}"/>
                                 <p style="color: red ; display: none" class="error errorPassword"></p>
                             </div>
 

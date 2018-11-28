@@ -16,8 +16,8 @@ class UserManagementController extends Controller
     }
     public function getUpdateUser($id){
         $user = users::find($id);
-        dd($user);
-        //return view('admin.users.update',['user'=>$user]);
+        // dd($user);
+        return view('admin.users.update',['user'=>$user]);
     }
     public function postUpdateUser(Request $request,$id){
         $rules = [
